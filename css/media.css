@@ -1,0 +1,37 @@
+ /*`xs` returns only a ruleset and no media query*/
+@media (min-width: 0px) and (max-width: 675.98px) {
+    .c5{
+        display: none; 
+    }
+    .c6{
+        display: none;
+    }
+}
+ /*`sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .c6{
+        display: none;
+    }
+}
+
+ /*`md` applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .c8{
+        display: none;
+    }
+    .c9{
+        background-color: orange;
+    }
+    .c10{
+        background-color: red;
+    }
+}
+
+ /*`lg` applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+ /*`xl` applies to large devices (desktops, less than 1200px)*/
+@media (min-width: 1200px) and (max-width: 1499.98px) { ... }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { ... }
